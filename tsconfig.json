@@ -1,7 +1,12 @@
 {
 	"extends": "./node_modules/@vangware/configs/.tsconfig.json",
 	"compilerOptions": {
-		"outDir": "./dist"
+		"outDir": "./dist",
+		"target": "ES5"
 	},
-	"include": ["src/*.ts", "src/**/*.ts", "tests/**/*.ts"]
+	"include": [
+		"src/*.ts",
+		"src/**/*.ts",
+		"tests/**/*.ts"
+	]
 }
