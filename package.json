@@ -61,6 +61,7 @@
 	"scripts": {
 		"clean": "rimraf ./dist",
 		"compile": "tsc --project tsconfig.dist.json",
+		"postinstall": "tsc --project tsconfig.dist.json",
 		"document": "typedoc",
 		"lint": "eslint {src,tests}/**/*.ts",
 		"lint:fix": "eslint {src,tests}/**/*.ts --fix",
