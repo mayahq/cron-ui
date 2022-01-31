@@ -13,6 +13,7 @@
 	},
 	"devDependencies": {
 		"@arkweid/lefthook": "^0.7.7",
+		"@swc/core": "^1.2.135",
 		"@types/eslint": "^8.2.1",
 		"@types/node": "17.0.8",
 		"@types/prettier": "^2.4.2",
@@ -36,6 +37,7 @@
 		"prettier": "^2.5.1",
 		"rimraf": "^3.0.2",
 		"ts-node": "^10.4.0",
+		"tsup": "^5.11.13",
 		"typedoc": "^0.22.10",
 		"typescript": "^4.5.4"
 	},
@@ -68,7 +70,8 @@
 		"pre-compile": "tsc --noemit --project tsconfig.dist.json",
 		"prepublishOnly": "run-s compile prettify",
 		"prettify": "prettier --write --loglevel warn './dist/**/*.{js,ts}'",
-		"test": "NODE_OPTIONS='--loader ts-node/esm' c8 test"
+		"test": "NODE_OPTIONS='--loader ts-node/esm' c8 test",
+		"tsup": "tsup"
 	},
 	"source": "./src/index.ts",
 	"types": "./dist/index.d.ts"
