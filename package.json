@@ -63,7 +63,7 @@
 	"scripts": {
 		"clean": "rimraf ./dist",
 		"compile": "tsc --project tsconfig.dist.json",
-		"prepack": "tsc --project tsconfig.dist.json",
+		"prepack": "tsup",
 		"document": "typedoc",
 		"lint": "eslint {src,tests}/**/*.ts",
 		"lint:fix": "eslint {src,tests}/**/*.ts --fix",
