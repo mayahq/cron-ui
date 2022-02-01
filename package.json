@@ -74,5 +74,6 @@
 		"tsup": "tsup"
 	},
 	"source": "./src/index.ts",
+	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts"
 }
