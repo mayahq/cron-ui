@@ -7,5 +7,6 @@ export default defineConfig({
 	// format: ["esm", "cjs"],
 	// target: "es5",
 	dts: true,
+	minify: true,
 	noExternal: ["@vangware/utils"],
 });
