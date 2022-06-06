@@ -1,13 +1,13 @@
 {
-	"name": "@vangware/cron",
-	"description": "⏲️ Cron Quartz and Cron UNIX expression parser",
-	"version": "5.0.1",
+	"name": "@mayahq/cron",
+	"description": "Forked ⏲️ Cron Quartz and Cron UNIX expression parser for ES5 targets",
+	"version": "0.1.1",
 	"author": {
-		"email": "hello@vangware.com",
-		"name": "Vangware",
-		"url": "https://vangware.com"
+		"email": "shubham@mayahq.com",
+		"name": "shubham-root",
+		"url": "https://mayalabs.io"
 	},
-	"bugs": "https://github.com/vangware/cron/issues",
+	"bugs": "https://github.com/mayahq/cron-ui/issues",
 	"dependencies": {
 		"@vangware/utils": "^8.0.2"
 	},
@@ -47,7 +47,7 @@
 	"files": [
 		"dist"
 	],
-	"homepage": "https://cron.vangware.com",
+	"homepage": "https://github.com/mayahq/cron-ui/",
 	"keywords": [
 		"cron",
 		"deno",
@@ -58,7 +58,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/vangware/cron.git"
+		"url": "https://github.com/mayahq/cron-ui.git"
 	},
 	"scripts": {
 		"clean": "rimraf ./dist",
